@@ -1,6 +1,6 @@
 #盲水印工具
 
-一个简单易用的盲水印（Blind Watermark） 命令行/交互式工具，支持"文本水印"和"图片水印"的嵌入与提取。  
+一个简单易用的盲水印（Easy Blind Watermark） 命令行/交互式工具，支持"文本水印"和"图片水印"的嵌入与提取。  
 基于优秀的 [blind_watermark](https://github.com/guofei9987/blind_watermark) 库实现，无需原始图像即可提取水印，适用于版权保护、图像溯源等场景。
 
 ## ✨ 特性
