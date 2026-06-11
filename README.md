@@ -1,16 +1,13 @@
-## Hi there 👋
+#盲水印工具
 
-<!--
-**nn3214670/nn3214670** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+一个简单易用的盲水印（Blind Watermark） 命令行/交互式工具，支持"文本水印"和"图片水印"的嵌入与提取。  
+基于优秀的 [blind_watermark](https://github.com/guofei9987/blind_watermark) 库实现，无需原始图像即可提取水印，适用于版权保护、图像溯源等场景。
 
-Here are some ideas to get you started:
+## ✨ 特性
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- ✅ 文本水印：将文字信息不可见地嵌入图片中。
+- ✅ 图片水印：将一张小图片（如 Logo）嵌入到另一张图片中。
+- ✅ 抗攻击：在一定程度上抵抗裁剪、压缩、旋转等常见图像处理（裁剪后图片需大于 384x384 像素)
+- ✅ 自动记忆：自动保存水印长度/尺寸及密码，提取时无需重复输入。
+- ✅ 密码保护：可自定义密码，提高安全性。
+- ✅ 交互菜单：启动后通过数字选择功能，拖拽图片即可操作，简单友好。
